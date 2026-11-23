@@ -12,10 +12,14 @@ Minimal Python starter project demonstrating isolated virtual environments, envi
 
 2. Create and activate a virtual environment:
 
-python -m venv .venv
-source .venv/bin/activate  # Windows PowerShell: .\.venv\Scripts\Activate.ps1
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Windows PowerShell: .\.venv\Scripts\Activate.ps1
 
 3. Install dependencies:
+   
+
+```bash
 
 pip install -r requirements.txt
 
@@ -23,8 +27,9 @@ pip install -r requirements.txt
 Configuration
 
 Copy .env.example to .env and fill in your values:
-
-cp .env.example .env  # Windows PowerShell: Copy-Item .env.example .env
+    
+   ```bash
+   cp .env.example .env  # Windows PowerShell: Copy-Item .env.example .env
 
 APP_NAME — application name displayed when the script runs.
 
@@ -34,7 +39,9 @@ Run
 
 Run the script:
 
-python main.py
+   ```bash
+
+   python main.py
 
 
 Expected output:
